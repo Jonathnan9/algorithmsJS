@@ -120,6 +120,13 @@ function sumToN(n) {
 
 **JavaScript**:
 ```javascript
+for (let i = 0; i < n; i++) {
+  if (n % i === 0) {
+    console.log(i);
+  }
+}
+let x = 52;
+x.forEach((i) => console.log(i));
 
 ```
 
